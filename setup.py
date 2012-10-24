@@ -98,7 +98,7 @@ debug = '--debug' in sys.argv
 
 # Global variables
 lib_dirs = []
-inc_dirs = ['blosc']
+inc_dirs = ['blosc','/usr/lib/openmpi/include']
 optional_libs = []
 data_files = []    # list of data files to add to packages (mainly for DLL's)
 
